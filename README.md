@@ -46,7 +46,8 @@ As we can see, the best model is our Multiple Linear Regression model with a val
 6) The chance of admission acceptance increases as GPA, SOP and University Ranking improve/increase<br>
 7) Students who have research experience in the past, tend to have a higher chance of getting into a University with a ranking of 3<br>
 <br>
-Image
+
+![Analysis_Chart](https://github.com/Aishwarya4823/University-Admission-Prediction-Using-Machine-Learning-Models/blob/master/Images/Analysis.JPG)
 
 # Key Performance Indicators(KPIs)
 <br>
