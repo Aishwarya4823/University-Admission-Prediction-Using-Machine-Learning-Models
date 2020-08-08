@@ -45,13 +45,39 @@ As we can see, the best model is our Multiple Linear Regression model with a val
 5) There is a very high correlation between GRE and TOEFL scores. A student who scores higher on GRE tends to score higher on their TOEFL exam<br>
 6) The chance of admission acceptance increases as GPA, SOP and University Ranking improve/increase<br>
 7) Students who have research experience in the past, tend to have a higher chance of getting into a University with a ranking of 3<br>
+<br>
+Image
 
 # Key Performance Indicators(KPIs)
 <br>
 In the following text, I have explained what role each KPI plays and what the value that we have got suggests about our best model(Multi-Linear Regression)
 
-## Mean Absolute Error(MSE)
+## Mean Absolute Error(MAE)
 <br>
+We achieve a MAE of 0.0383 on the multiple linear regression model. Being a measure of the avg magnitude of error, as our MAE is very close to zero, we can say 
+that our predictions are very close to the right predictions.
+<br>
+
+## Mean Square Error(MSE)
+<br>
+MSE, in this case, is 0.00268, which is a value close enough to 0. This tells us that there are very few outliers in the data since if there would have been a higher
+number of outliers, the MSE value would have been higher.
+<br>
+
+## Root Mean Square Error(RMSE)
+<br>
+We can see that the RMSE value is 0.052. This tells us that the standard deviation of the residuals is a lower value.
+<br>
+
+## R^2 (Coefficient of Determination)
+<br>
+R-squared value is 0.82 which means that 82% of the variance in our dataset can be explained by the regression model.
+<br>
+
+## Adjusted R-squared value
+<br>
+We can see that the adjusted R-squared value is 0.80432. We can see that the value of adjusted R-squared is high which suggests that the predictors used in the model
+are all useful. If there are any such predictors that do not play a significant role in predicting the outcome, Adjusted R-square value decreases as it penalises such predictor factors.
 
 
 
